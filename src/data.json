@@ -1,0 +1,20 @@
+{
+  "companies": {
+    "http://www.company1.com": {
+      "name": "Company 1",
+      "phones": ["123-456-7890", "111-222-3333"]
+    },
+    "http://www.company2.com": {
+      "name": "Company 2",
+      "phones": ["987-654-3210", "444-555-6666"]
+    },
+    "http://www.company3.com": {
+      "name": "Company 3",
+      "phones": ["555-555-5555", "777-888-9999"]
+    },
+    "http://www.company4.com": {
+      "name": "Company 4",
+      "phones": ["777-777-7777", "000-111-2222"]
+    }
+  }
+}
