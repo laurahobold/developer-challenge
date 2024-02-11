@@ -1,61 +1,65 @@
-# developer-challenge
+# Developer-Challenge
 
-#### 🤓 - Preciso fazer o desafio?
+<h3>Introdução</h3>
+Buscador de telefones chamado FoneFinder.
+O usuário da ferramenta digita qualquer URL e como resultado serão listados os telefones encontrados na página de 
+destino ou nas páginas subsequentes do mesmo domínio.
 
-O desafio de codificação passa a ser opcional caso você já possua algum código do qual se orgulha e pode compartilhar conosco.
+<h3>Stack</h3>
+<p>A solução foi feita somente para o Front-end</p>
 
-#### 🤓 - Tenho um projeto, como faço pra mostrar?
+<h3>Escolhas Técnicas</h3>
+<ul>
+<li>React Hooks (useState e useEffect):<br/>
+<b>useState:</b> Gerenciar o estado do componente Search.<br/>
+<b>useEffect:</b> Realizar a busca assim que o componente é montado (quando ocorrem mudanças nos estados data ou searchUrl).</li>
+<br/>
+<li>Performance API (performance.now()):<br/>
+Utilizamos a Performance API para medir o tempo de execução da busca.</li>
+<br/>
+<li>Arquitetura de Componentes Funcionais:
 
-Se você já tem algum código ou projeto existente, faça o seguinte:
+Escolhi utilizar componentes funcionais em vez de classes, uma vez que isso proporciona um código mais limpo e claro.
+</li>
+</ul>
 
-- Caso ainda não esteja, suba seu projeto para um repositório git hospedado (por exemplo, Github, Bitbucket, etc.)
-- O repo deve incluir um README que segue os princípios descritos abaixo. Certifique-se de incluir explicações de alto nível sobre o que o código está fazendo
-- O código que enviar deve ter sido escrito por você sozinho. Caso contrário, diga-nos qual parte você escreveu e por que se orgulha de tê-lo feito (use o README para isso)
+<h3>Se tivesse mais tempo:</h3>
+<p> Acredito que poderia refatorar melhor o código e fazer algumas mudanças no design, visto que o contraste de alguns 
+elementos não estão adequados. Além disso, caso tivesse mais tempo, gostaria de tentar fazer a solução do back-end também. 
+Apesar de não ter muita experiência prática nessa stack, tenho muito interesse em aprender, portanto se eu fizesse o desafio
+Full-Stack provavelmente teria que pesquisar mais a fundo como cumprir os requisitos apresentados.</p>
 
-#### 🤓 - Como preparo o README?
+<h3>Outros Projetos:</h3>
+<p>Existem diversos outros projetos no meu GitHub, mas vou deixar o URL de dois que gostei muito e aprendi muito fazendo.</p>
+    <b>taylorswift-discord-bot:</b> 
+    https://github.com/laurahobold/taylorswift-discord-bot
+<br/>
+    <b>NSO-DOTFILES:</b> 
+    https://github.com/laurahobold/NSO-DOTFILES
 
-Independentemente de ser seu próprio código ou estar seguindo o nosso desafio abaixo, escreva seu README como se fosse para um serviço de produção. Inclua os seguintes itens:
+<h3>Meus perfis profissionais:</h3>
+<b>LinkedIn: </b>https://www.linkedin.com/in/laurahobold/ 
 
-- Descrição do problema e da solução
-- Se a solução se concentra no Backend, Frontend ou é Full Stack
-- Razões por trás de suas escolhas técnicas, incluindo arquitetônicas
-- Trocas que você pode ter feito, qualquer coisa que você deixou de fora, ou o que você pode fazer diferente se você gastar mais tempo no projeto
-- Link para outro código do qual você está particularmente orgulhoso
-- Link para o seu currículo ou perfil público
-- Link para o aplicativo hospedado quando aplicável
-
-
-#### 🤓 - Ok, me fala mais sobre o desafio...
-
-- Fork este repositório e faça o desafio em um branch com o seu nome (exemplo: nome-sobrenome)
-- O seu objetivo principal é transformar o desafio em um protótipo funcional
-- No seu projeto, crie um diretório chamado src. Todos os arquivos que você criar devem estar dentro desta pasta
-- Assim que concluir o seu desafio, abra um pull request com suas alterações
-
-#### 🤓 - O que vou fazer?
-
-Você irá criar um buscador de telefones chamado FoneFinder. O usuário da ferramenta irá digitar qualquer URL e como resultado serão listados os telefones encontrados na página de destino ou nas páginas subsequentes do mesmo domínio.
-
-O desafio consiste em realizar uma das opções abaixo, conforme a sua área de interesse.
-
-#### 1) [Desafio para desenvolvedor Frontend: HTML5/CSS3/JS](https://github.com/zadsmedia/developer-challenge/wiki/Desenvolvedor-Frontend)
-
-#### 2) [Desafio para desenvolvedor Backend: Node.js](https://github.com/zadsmedia/developer-challenge/wiki/Desenvolvedor-Backend)
-
-#### 3) [Desafio para desenvolvedor Full Stack: SPA + API REST](https://github.com/zadsmedia/developer-challenge/wiki/Desenvolvedor-Full-Stack)
+<b>GitHub:</b> https://github.com/laurahobold
 
 
-#### 4) [Desafio para desenvolvedor Big data e Machine Learning](https://github.com/zadsmedia/developer-challenge/wiki/Desenvolvedor-Big-Data-e-ML)
+## Initializing the project
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+## Perguntas
 
 
-#### 🤓 - Entendi! Alguma dica?
-
-- Seu código deverá ser o mais semântico possível
-- O uso ou não de bibliotecas também será avaliado
-- Crie uma boa documentação
-- Crie testes para o seu código
-
-
-#### Em caso de dúvidas, [abra uma issue](https://github.com/zadsmedia/developer-challenge/issues)
-
-#### Até logo e bom trabalho!
